@@ -1,3 +1,14 @@
+# Notes
+
+1. Component Life Cycle
+
+- componentDidMount only gets called after the component gets rendered.
+- componentDidUpdate runs the code inside it everytime there are changes to state or the component rerenders
+- componentDidUnmount runs the code inside it once when the component unmounts
+
+2. defaultProps is used when a prop is not passed into the component.
+   > See the Spinner.js component for an example on how it is used
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
